@@ -16,6 +16,8 @@ This is a Node.js project that demonstrates refactoring code from callbacks to P
 
 - `callback.js`: Original callback-based implementation
 - `index.js`: Refactored implementation using Promises and Async/Await
+- `input.txt`: Input file containing sample data
+- `output.txt`: Output file generated after processing
 
 ### Prerequisites
 
@@ -24,6 +26,12 @@ This is a Node.js project that demonstrates refactoring code from callbacks to P
 ### Installation
 
 1. Clone the repository:
-   ```bash
 
+   ```bash
+   git clone https://github.com/prestigious-protagonist/Week-3.git
+   npm install
+   node src/index.js
+   node src/callback.js
+
+   - This generates an output.txt with content copied to it from input.txt
    ```
